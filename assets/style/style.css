@@ -108,6 +108,11 @@ img{
     padding: 5px 10px;
     border-radius: 4px;
 }
+@media (max-width: 991px) {
+    .menu-all-itens{
+        grid-template-columns: 1fr;
+    }
+}
 /*cardapio*/
 
 /*footer*/
@@ -115,7 +120,21 @@ img{
 footer{
     background-color: var(--red);
 }
-
-
+.container-footer{
+    max-width: 1440px;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+.content-footer{
+    display: flex;
+    justify-content: center;
+}
+.content-footer h1{
+    color: var(--white);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 
 /*footer*/
