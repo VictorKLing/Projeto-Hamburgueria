@@ -119,6 +119,9 @@ img{
     .menu-all-itens{
         grid-template-columns: 1fr;
     }
+    .cart-infos-menu-item i{
+        padding: 10px 15px;
+    }
 }
 @media (max-width: 467px) {
     .infos-menu-item h2{
@@ -130,6 +133,7 @@ img{
     .cart-infos-menu-item{
         margin-top: 18px;
     }
+    
 }
 /*cardapio*/
 
@@ -208,6 +212,9 @@ footer{
     background-color: transparent;
     border: none;
 }
+.close-cart{
+    color: var(--black);
+}
 .close-cart,
 .finish-cart{
     border: none;
@@ -257,6 +264,9 @@ footer{
     color: red;
     
 }
-
+.remover-item-carrinho{
+    color: var(--black);
+    font-size: 14px;
+}
 /*modal*/
 /*footer*/
